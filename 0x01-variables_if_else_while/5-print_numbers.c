@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main _ Entry point
+ * main - Entry point
  * author: oluwatosin
  * Return: Always 0 (Success/correct)
  */
