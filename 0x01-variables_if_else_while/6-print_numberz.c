@@ -6,9 +6,8 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-
 {
-	int oluwatosin
+	int oluwatosin;
 
 	for (oluwatosin = 48; oluwatosin < 58; oluwatosin++)
 		putchar(oluwatosin);
