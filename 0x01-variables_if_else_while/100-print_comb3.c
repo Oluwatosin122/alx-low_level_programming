@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- * main - program compilation begins from main
- * Description: Program to print all possible combination of numbers
- with no two numbers same in paring
+ * main - program copilation begins from main
+ * Description: Program to print all possible combinations of number
  * author: oluwatosin
  * Return: 0 means success
  */
@@ -25,3 +24,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+
