@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - program copilation begins from main
- * Description: Program to print all possible combinations of number
+ * Description: Program to print all possible combinations of2 digits
  * author: oluwatosin
  * Return: 0 means success
  */
