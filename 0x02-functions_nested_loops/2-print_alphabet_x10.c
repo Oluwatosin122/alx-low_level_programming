@@ -4,7 +4,7 @@
  * print_alphabet_x10 - print a -z ten times
  */
 
-void printalphabet_x10(void)
+void print_alphabet_x10(void)
 {
 	int i;
 	char j;
@@ -17,4 +17,4 @@ void printalphabet_x10(void)
 		}
 		_putchar('\n');
 	}
-}	
+}
