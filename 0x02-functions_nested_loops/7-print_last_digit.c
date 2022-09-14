@@ -1,18 +1,21 @@
 #include "main.h"
 /**
  * print_last_digit - prints the last digits of any number
- * @n:nthe int value to be acted upon
+ * @n: the int value to be acted upon
  * author: oluwatosin
  * Return: returns the last digit to calling function
  */
-int print_last_digit(int a)
+int print_last_digit(int c)
 {
-	if (a >= 0 && a <= 9)
-		return (a);
-
+	if (c > 9 || c == 0)
+	{
+	_putchar (c % 10 + '0');
+	return (c % 10);
+	}
 	else
 	{
-		a = _abs(a % 10);
-		return (a);
+	c = c * -1;
+	_putchar (c % 10 + '0');
+	return (c % 10);
 	}
 }
