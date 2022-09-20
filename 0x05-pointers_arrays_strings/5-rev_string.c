@@ -2,8 +2,8 @@
 #include "main.h"
 /**
  * rev_string - This function reverses a string and prints on the stdout
- * @s:point aparameter
- *Author:oluwatosin
+ * @s: point parameter
+ *Author: oluwatosin
  */
 
 void rev_string(char *s)
@@ -12,7 +12,7 @@ void rev_string(char *s)
 	char first, last;
 
 	i = 0;
-	while S([i] != '\0')
+	while (s[i] != '\0')
 	{
 		i++;
 	}
