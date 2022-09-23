@@ -15,7 +15,7 @@ int j, k;
 for (j = 0; j <= 9; j++)
 {
 if (j <= s)
-printf("%02x", c[i * 10 + j]);
+printf("%02x", c[l * 10 + j]);
 else
 printf("  ");
 if (j % 2)
@@ -23,7 +23,7 @@ Putchar(' ');
 }
 for (k = 0; k <= s; k++)
 {
-if (c[i * 10 + k] > 31 && c[l * 10 + k] < 127)
+if (c[l * 10 + k] > 31 && c[l * 10 + k] < 127)
 putchar(c[l * 10 + k]);
 else
 putchar(',');
@@ -40,7 +40,7 @@ putchar(',');
 void print_buffer(char *b, int size)
 {
 int i;
-for (i = 0; i <= (size - l) / 10 && size; i++)
+for (i = 0; i <= (size - 1) / 10 && size; i++)
 {
 printf("%08x: ", i * 10);
 if (i < size / 10)
@@ -49,7 +49,7 @@ print_line(b, 9, i);
 }
 else
 {
-printf_line(b, size % 10 - l, i);
+printf_line(b, size % 10 - 1, i);
 }
 putchar('\n');
 }
