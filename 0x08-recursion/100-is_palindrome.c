@@ -4,7 +4,7 @@
  * @str: the string to be checked
  * @len: the length of the string
  * @i: the incrementor, starts at 0
- * return: 1 if it's a palindrome, 0 if it's not
+ * Return: 1 if it's a palindrome, 0 if it's not
  */
 int palindromeChecker(char *str, int len, int i)
 {
