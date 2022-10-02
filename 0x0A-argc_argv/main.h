@@ -1,7 +1,7 @@
-#ifndef FILE_MAIN
-#define FILE_MAIN
+#ifndef MAIN_H
+#define main_h
 
 int _putchar(char c);
-int _atoi(char *s);
+int check_num(char *str);
 
 #endif
