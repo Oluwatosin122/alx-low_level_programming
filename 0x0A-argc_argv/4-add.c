@@ -71,7 +71,7 @@ int main(int argc, char *argv[])
 		}
 	}
 
-	for (k = 1, k < argc; k++)
+	for (k = 1; k < argc; k++)
 	{
 		num = _atoi(argv[k]);
 		if (num >= 0)
