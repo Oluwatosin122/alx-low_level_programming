@@ -49,11 +49,11 @@ int op_div(int a, int b)
 }
 
 /**
- * op_mod - calculates the reminder of the division of two integers
+ * op_mod - calculates the remainder of the division of two integers
  * @a: first integer
  * @b: second integer
  *
- * Return: reminder of a divided b
+ * Return: remainder of a divided b
  */
 int op_mod(int a, int b)
 {
